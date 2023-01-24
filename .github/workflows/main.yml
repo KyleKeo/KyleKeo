@@ -22,7 +22,8 @@ jobs:
 
       uses: azure/webapps-deploy@v1
 
-      with: app-name: 'CMST385-kkeo'
+      with:
+         app-name: 'cmst385-kkeo'
 
         slot-name: 'production'
-       publish-profile: ${{ secrets.AppServiceCMST385 }}
+        publish-profile: ${{ secrets.AppServiceCMST385 }}
